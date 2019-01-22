@@ -9,6 +9,7 @@ using namespace std;
 int main(int argc, char* argv[]) {
 
     if (argc != 4) {
+        cout << "DLLFileExtractor Version: 1.0" << endl;
         cout << "Usage: DLLFileExtractor <Memory_dump_path> <Output_directory> <Size_of_largest_DLL>" << endl;
         return 1;
     }
